@@ -1,0 +1,277 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Wallet Styles */
+wallet {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.wallet h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.wallet-balance {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.wallet-currency {
+  font-size: 14px;
+  color: #888;
+}
+
+.wallet-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wallet-label {
+  font-weight: bold;
+}
+
+.wallet-amount {
+  font-size: 16px;
+}
+
+/* Total Pemasukan Styles */
+#income {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 20px;
+}
+
+#income h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+#total-income {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Form Pemasukan Styles */
+#income-form {
+  background-color: #fff;
+  padding: 20px;
+}
+
+#income-form h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+#income-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#income-category,
+#income-amount {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#add-income {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Total Pengeluaran Styles */
+#expenses {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 20px;
+}
+
+#expenses h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+#total-expenses {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Form Pengeluaran Styles */
+#expense-form {
+  background-color: #fff;
+  padding: 20px;
+}
+
+#expense-form h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+#expense-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#expense-category,
+#expense-detail,
+#expense-amount {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#add-expense {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Transaction List Styles */
+.transaction-list {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.transaction-list h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.transaction-item {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.transaction-item p {
+  margin: 0;
+}
+
+/* Budget Styles */
+#budget {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+#budget h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.budget-item {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.budget-item p {
+  margin: 0;
+}
+
+/* Account Styles */
+#account {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+#account h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #ddd;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Transaction List Styles */
+.transaction-list {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.transaction-list h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.transaction-item {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.transaction-item p {
+  margin: 0;
+}
+
+.transaction-category {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.transaction-detail {
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.transaction-amount {
+  font-weight: bold;
+}
+
+.transaction-date {
+  color: #888;
+  font-size: 14px;
+}
